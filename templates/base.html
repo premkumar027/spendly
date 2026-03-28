@@ -31,9 +31,12 @@
 
     <footer class="footer">
         <div class="footer-inner">
-            <span class="brand-icon">◈</span>
-            <span class="footer-name">Spendly</span>
-            <p class="footer-copy">Track every rupee. Own your finances.</p>
+            <p class="footer-copy">© 2026 Expense Tracker. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="{{ url_for('terms') }}" class="footer-link">Terms and Conditions</a>
+                <span class="footer-sep">·</span>
+                <a href="{{ url_for('privacy') }}" class="footer-link">Privacy Policy</a>
+            </div>
         </div>
     </footer>
 
